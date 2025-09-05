@@ -9,10 +9,12 @@ class Combinations:
             self.binom[i][0] = 1
             for j in range(1, i + 1):
                 self.binom[i][j] = self.binom[i-1][j-1] + self.binom[i-1][j]
+
+        self.total_count = self.binom[n + k - 1][k]
         
         print(self.binom)
 
-    def combination_with_repetition_optimized(self, index):
+    def get_combination(self, index):
         """
         Оптимизированная версия для сочетаний с повторениями по индексу
     
@@ -43,3 +45,51 @@ class Combinations:
                     x -= count
     
         return result
+    
+    def get_combinations_range(self, start_index, end_index):
+        """
+        Получить диапазон сочетаний от start_index до end_index-1
+        
+        Args:
+            start_index: начальный индекс (включительно)
+            end_index: конечный индекс (исключительно)
+        
+        Returns:
+            list: список сочетаний
+        """
+        # Проверка корректности индексов
+        if start_index < 0:
+            raise ValueError(f"start_index не может быть отрицательным: {start_index}")
+        if end_index > self.total_count:
+            raise ValueError(f"end_index превышает общее количество: {end_index} > {self.total_count}")
+        if start_index >= end_index:
+            raise ValueError(f"start_index должен быть меньше end_index: {start_index} >= {end_index}")
+        
+        results = []
+        for index in range(start_index, end_index):
+            results.append(self.get_combination(index))
+        
+        return results
+
+
+
+    def get_combinations_range_generator(self, start_index, end_index):
+        """
+        Генератор для диапазона сочетаний (экономит память)
+        
+        Args:
+            start_index: начальный индекс (включительно)
+            end_index: конечный индекс (исключительно)
+        
+        Yields:
+            list: очередное сочетание
+        """
+        if start_index < 0:
+            raise ValueError(f"start_index не может быть отрицательным: {start_index}")
+        if end_index > self.total_count:
+            raise ValueError(f"end_index превышает общее количество: {end_index} > {self.total_count}")
+        if start_index >= end_index:
+            raise ValueError(f"start_index должен быть меньше end_index: {start_index} >= {end_index}")
+        
+        for index in range(start_index, end_index):
+            yield self.get_combination(index)
