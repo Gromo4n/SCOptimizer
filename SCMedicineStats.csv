@@ -1,0 +1,61 @@
+Название,Защита от холода,Живучесть,Периодическое лечение,Отравление,Защита от огня,Эффективность лечения,Защита от кровотечения,Восстановление выносливости,Скорость передвижения,Прочность,Сопротивление радиации,Отдача,Биологическое заражение,Химзащита,Сопротивление холоду,Горение,Защита от температуры,Покачивание,Температура,Кровотечение,Холод,Защита от пси-излучения,Выносливость,Реакция на хим. ожог,Реакция на электричество,Переносимый вес,Пси-излучение,Радиация,Регенерация здоровья,Защита от биозаражения,Сопротивление пси-излучению,Реакция на ожог,Сопротивление биозаражению,Сопротивление температуре,Пулестойкость,Стойкость,Реакция на разрыв,Мгновенное лечение
+Аптечка для экстремальных условий,N/A,N/A,"+8,1%",N/A,N/A,N/A,N/A,"+6,8%",N/A,N/A,N/A,N/A,N/A,N/A,50%,N/A,N/A,N/A,N/A,"-1,5",-2,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,5
+Бинт,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,-20,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,5
+Пси-блок «Нейрон-11»,N/A,"-17,5%",N/A,50,N/A,-25%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,50,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+«Термобарьер» первого класса,N/A,"-17,5%",N/A,50,N/A,-25%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,50,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Антирад Б-191,N/A,N/A,N/A,25,N/A,N/A,N/A,N/A,N/A,N/A,100%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,-10,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Анаболик «STARK»,+5,N/A,N/A,N/A,N/A,N/A,N/A,"+3,2%",+1%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,+12%,N/A,N/A,"+8,1",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Подсумок с военными аптечками,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,100%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Аптечка индивидуальная,N/A,N/A,4%,"-0,05",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,-1,N/A,N/A,N/A,N/A,N/A,N/A,-1,N/A,N/A,N/A,N/A,N/A,N/A,N/A,-1,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Брага,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"2,5%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+«Гемостат»,N/A,N/A,N/A,20,N/A,N/A,"10,5%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"-0,75",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"1,1%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Мякоть солевика,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"22,4%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Антидот первого класса,N/A,"-17,5%",N/A,50,N/A,-25%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,50,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Военная аптечка,N/A,N/A,6%,N/A,N/A,N/A,N/A,6%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"-1,5",N/A,N/A,N/A,N/A,N/A,N/A,N/A,-3,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Сусло,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"1,3%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"2,1%",N/A
+Мякоть мятноплода,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"5,3%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Аптечка ученых,N/A,N/A,6%,"-0,15",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,-5,N/A,N/A,N/A,N/A,N/A,N/A,"-1,5",N/A,N/A,N/A,N/A,N/A,N/A,N/A,-5,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Энергетик «Жидень EXTRA»,N/A,N/A,N/A,15,N/A,N/A,N/A,"3,5%","1,7%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Антидот второго класса,N/A,-25%,N/A,50,N/A,-25%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,100,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Десперол,N/A,N/A,N/A,40,N/A,N/A,N/A,"+5,3%","+2,5%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Тоник «Арни»,N/A,N/A,N/A,15,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,16%,N/A,N/A,"10,7",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Антирад Б-292,N/A,N/A,N/A,25,N/A,N/A,N/A,N/A,N/A,N/A,100%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,-50,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Кларинол,N/A,"2,1%",N/A,40,N/A,"14,3%","13,12%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Мазь от ожогов,N/A,N/A,N/A,N/A,"18,8",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"18,8",N/A,"-0,5",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Мякоть сластены,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"2,7%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"25,6%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Пси-блок «Нейрон-22»,N/A,-25%,N/A,50,N/A,-25%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,100,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Подсумок с аптечками ученых,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,100%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+«Термобарьер» второго класса,N/A,-25%,N/A,50,N/A,-25%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,100,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Нейротоник,N/A,N/A,N/A,15,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"19,2%",N/A,N/A,"12,9",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Мякоть спиртня,N/A,"2,5%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"4,5%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+«ClearMind+»,N/A,N/A,N/A,25,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,-75,N/A,N/A,N/A,100%,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Энергетик «Батарейка»,N/A,N/A,N/A,15,N/A,N/A,N/A,"4,2%",2%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Анаболик «ATLAS»,N/A,N/A,N/A,15,N/A,N/A,N/A,"2,8%","0,9%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"10,4%",N/A,N/A,7,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+«УДАР»,N/A,N/A,10%,25,N/A,N/A,N/A,15%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,5
+«Астрикцин»,N/A,N/A,N/A,20,N/A,N/A,"15,8%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"-1,13",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"1,5%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Аптечка проводника,N/A,N/A,7%,"-0,15",N/A,N/A,N/A,7%,N/A,N/A,N/A,N/A,-5,N/A,N/A,N/A,N/A,N/A,N/A,"-1,5",N/A,N/A,N/A,N/A,N/A,N/A,N/A,-5,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+«Термобарьер» третьего класса,N/A,-30%,N/A,50,N/A,-25%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,135,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Эпинефрин,N/A,N/A,N/A,40,N/A,N/A,N/A,"6,3%",3%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"28,8%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Антирад Б-393,N/A,N/A,N/A,25,N/A,N/A,N/A,N/A,N/A,N/A,100%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,-75,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Пси-блок «Нейрон-33»,N/A,-30%,N/A,50,N/A,-25%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,135,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+«Веселый лимонад»,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"1,6%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"15,2%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"3,1%",N/A
+Морфин,N/A,"2,5%",N/A,40,N/A,"17,1%","15,75%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,18,N/A,N/A,N/A
+«Рассол»,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"3,4%","1,6%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"3,8%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Антидот третьего класса,N/A,-30%,N/A,50,N/A,-25%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,135,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Подсумок с аптечками проводника,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,100%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+«Субтропики»,N/A,N/A,N/A,N/A,N/A,"9,5%",N/A,N/A,"1,7%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,16%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"2,7%",N/A,N/A,N/A,N/A,N/A,N/A
+«Панацея»,N/A,N/A,N/A,-20,N/A,N/A,N/A,N/A,N/A,N/A,75%,N/A,-20,N/A,75%,N/A,N/A,N/A,-20,N/A,-20,N/A,N/A,N/A,N/A,N/A,-20,-20,N/A,N/A,75%,N/A,75%,75%,N/A,N/A,N/A,N/A
+Водка «Гейзер»,N/A,"2,8%",N/A,50,N/A,19%,N/A,7%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"4,9%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Коктейль «Незабываемый»,N/A,"2,8%",N/A,50,N/A,N/A,N/A,N/A,"3,3%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,32%,N/A,N/A,N/A,N/A,N/A,"4,9%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+«Алкобык»,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"3,3%",N/A,N/A,-5%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,32%,N/A,N/A,"21,4",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+«ШизоЁрш»,N/A,"8,4%",N/A,40,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"0,01",N/A,"4,9%",N/A,N/A,N/A,N/A,N/A,"9,9",N/A,N/A,N/A
+«Шапочка из фольги»,N/A,N/A,N/A,N/A,N/A,"9,5%",N/A,"3,5%","1,7%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,4%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+«Биозаплатка»,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,-20,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,10%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,5
+Анаболик «SALT»,N/A,N/A,N/A,15,N/A,N/A,N/A,"2,7%","1,3%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,24%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+«Убийца Боли»,N/A,N/A,N/A,40,N/A,N/A,N/A,N/A,5%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"9,9","39,6%",N/A,N/A
+Силовой стимулятор,N/A,N/A,N/A,20,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"-3,8%",N/A,N/A,N/A,N/A,N/A,"-7,5%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,"16,1",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Сильная мазь от ожогов,N/A,N/A,N/A,N/A,25,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,25,N/A,-1,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+«ТОПОТ»,N/A,N/A,"12,6%",25,N/A,N/A,N/A,"17,5%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,30%,N/A,5
+Мякоть куборбуза,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"6,7%","3,2%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"30,4%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Хорог,N/A,"1,4%",N/A,N/A,N/A,N/A,N/A,N/A,"1,7%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,16%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Мякоть лимонника,N/A,"2,8%",N/A,N/A,N/A,19%,"17,5%",N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,20,N/A,N/A,N/A
