@@ -1,95 +1,63 @@
 class Combinations:
     def __init__(self, n, k):
+        if k < 0 or n < 0 or k > n:
+            raise ValueError("Invalid parameters: n and k must be non-negative, and k <= n")
         self.n = n
         self.k = k
-        self.max_val = n + k
-        self.binom = [[0] * (self.max_val + 1) for _ in range(self.max_val + 1)]
+        self.binom = [[0] * (k + 1) for _ in range(n + k)]
         
-        for i in range(self.max_val + 1):
+        # Вычисление биномиальных коэффициентов
+        for i in range(n + k):
             self.binom[i][0] = 1
-            for j in range(1, i + 1):
-                self.binom[i][j] = self.binom[i-1][j-1] + self.binom[i-1][j]
-
-        self.total_count = self.binom[n + k - 1][k]
+            for j in range(1, min(i + 1, k + 1)):
+                self.binom[i][j] = self.binom[i-1][j-1] + (self.binom[i-1][j] if j <= i-1 else 0)
         
-        print(self.binom)
+        self.total_count = self.binom[n + k - 1][k]
+        print(f"Total combinations: {self.total_count}")  # Отладочная информация
 
     def get_combination(self, index):
-        """
-        Оптимизированная версия для сочетаний с повторениями по индексу
-    
-        Args:
-            index: порядковый номер (0 до C(n+k-1, k)-1)
-    
-        Returns:
-            list: сочетание в виде списка
-         """
-    
-    
+        if index >= self.total_count:
+            raise ValueError(f"Index {index} exceeds total number of combinations {self.total_count}")
+        
         result = []
         x = index
-        a = self.n
-        b = self.k
-    
-        for i in range(self.k):
-            for j in range(a):
-                # Количество сочетаний при выборе элемента j
-                count = self.binom[a - j + b - 2][b - 1] if b > 1 else 1
-            
-                if x < count:
+        n = self.n
+        k = self.k
+        
+        for i in range(k):
+            j = 0
+            while True:
+                # Количество комбинаций, начинающихся с j на текущей позиции
+                count = self.binom[n - j + k - i - 1 - 1][k - i - 1] if k - i - 1 > 0 else 1
+                if x < count or j >= n - 1:
                     result.append(j)
-                    a = self.n - j
-                    b -= 1
                     break
-                else:
-                    x -= count
-    
+                x -= count
+                j += 1
+                if j >= n:
+                    raise ValueError(f"Generated element {j} exceeds valid range [0, {n-1}]")
+        
         return result
-    
-    def get_combinations_range(self, start_index, end_index):
-        """
-        Получить диапазон сочетаний от start_index до end_index-1
-        
-        Args:
-            start_index: начальный индекс (включительно)
-            end_index: конечный индекс (исключительно)
-        
-        Returns:
-            list: список сочетаний
-        """
-        # Проверка корректности индексов
-        if start_index < 0:
-            raise ValueError(f"start_index не может быть отрицательным: {start_index}")
-        if end_index > self.total_count:
-            raise ValueError(f"end_index превышает общее количество: {end_index} > {self.total_count}")
-        if start_index >= end_index:
-            raise ValueError(f"start_index должен быть меньше end_index: {start_index} >= {end_index}")
-        
-        results = []
-        for index in range(start_index, end_index):
-            results.append(self.get_combination(index))
-        
-        return results
-
-
 
     def get_combinations_range_generator(self, start_index, end_index):
-        """
-        Генератор для диапазона сочетаний (экономит память)
+        if start_index < 0 or end_index > self.total_count or start_index > end_index:
+            raise ValueError(f"Invalid range: ensure 0 <= start_index ({start_index}) <= end_index ({end_index}) <= total_count ({self.total_count})")
         
-        Args:
-            start_index: начальный индекс (включительно)
-            end_index: конечный индекс (исключительно)
+        current = self.get_combination(start_index) if start_index > 0 else [0] * self.k
+        yield current[:]
         
-        Yields:
-            list: очередное сочетание
-        """
-        if start_index < 0:
-            raise ValueError(f"start_index не может быть отрицательным: {start_index}")
-        if end_index > self.total_count:
-            raise ValueError(f"end_index превышает общее количество: {end_index} > {self.total_count}")
-        if start_index >= end_index:
-            raise ValueError(f"start_index должен быть меньше end_index: {start_index} >= {end_index}")
-        
-        for index in range(start_index, end_index):
-            yield self.get_combination(index)
+        for _ in range(start_index + 1, end_index):
+            current = self._next_combination(current)
+            yield current[:]
+
+    def _next_combination(self, current):
+        result = current[:]
+        i = self.k - 1
+        while i >= 0 and result[i] >= self.n - 1:
+            i -= 1
+        if i < 0:
+            return result
+        result[i] += 1
+        for j in range(i + 1, self.k):
+            result[j] = result[i]  # Для сочетаний с повторениями следующий элемент равен текущему
+        return result
